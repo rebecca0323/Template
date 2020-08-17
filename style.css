@@ -1,0 +1,91 @@
+/* Choose 3 colors for your website and your navigation-bar color */
+:root{
+    --primary-color: #1A6287;
+    --secondary-color: #FFD9B7;
+    --third-color: #B7D0FF;
+    --nav-bar: #FFF;
+}
+
+/* The font + size for your name */
+h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+}
+
+/* Main Text Font */
+*{
+    font-family: 'Josefin Slab', serif;
+}
+
+/* 
+
+===================================
+PLEASE DO NOT CHANGE THE CODE BELOW 
+===================================
+
+*/
+
+h2{
+    padding-bottom: 5%;
+}
+
+img{
+    padding: 5%;
+}
+
+p{
+    font-size: large;
+}
+
+li{
+    font-size: large;
+}
+
+.img-fluid{
+    max-width: 80%;
+    max-height: auto;
+    align-items: center;
+}
+
+iframe{
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.container-fluid{
+    padding: 10%;
+}
+
+.banner{
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.navbar{
+    background: var(--nav-bar);
+}
+
+.banner{
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.me{
+    background: var(--third-color);
+    color: var(--primary-color);
+}
+
+.meme{
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.game{
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.reflection{
+    background: var(--third-color);
+    color: var(--primary-color);
+}
